@@ -8,7 +8,7 @@ import logo06 from "../assets/logos/logo-6.png";
 function Logos() {
   const logos = [logo01, logo02, logo03, logo04, logo05, logo06];
   return (
-    <div className="my-10 max-w-[1320px] mx-auto">
+    <div className=" max-w-[1320px] mx-auto md:p-5 lg:p-0 ">
       <ul className="flex flex-col md:flex-row md:justify-between items-center space-y-5 md:space-y-0 grayscale">
         {logos.map((logo, index) => (
           <li key={index}>

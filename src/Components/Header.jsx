@@ -2,7 +2,7 @@ import React from "react";
 import HeaderImg from "../assets/images/header-img.png";
 function Header() {
   return (
-    <div className="max-w-[1320px] mx-auto py-10 flex flex-col md:flex-row md:justify-between items-center">
+    <div className="max-w-[1320px] mx-auto py-10 flex flex-col md:flex-row md:justify-between items-center px-5 lg:px-0">
       <div>
         <h1 className="text-6xl font-medium leading-[1.2] max-w-[550px]">Navigating the digital landscape for success</h1>
         <p className="text-xl max-w-[500px] my-10">
