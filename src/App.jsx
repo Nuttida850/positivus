@@ -9,6 +9,7 @@ import Working from "./Components/Working";
 import Team from "./Components/Team";
 import Testimonials from "./Components/Testimonials";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
       <Team />
       <Testimonials />
       <Contact />
+      <Footer />
     </>
   );
 }

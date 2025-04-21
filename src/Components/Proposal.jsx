@@ -3,7 +3,7 @@ import img from "../assets/images/img-1.png";
 
 function Proposal() {
   return (
-    <div className="p-5 md:p-0 max-w-[1320px] mx-auto">
+    <div className="p-10 md:p-0 max-w-[1320px] mx-auto">
       <div className=" bg-[#F3F3F3] p-10 rounded-4xl flex flex-col md:flex-row md:justify-between relative">
         <div className="ml-5 md:ml-10 text-left">
           <h3 className="text-3xl font-medium">Let’s make things happen</h3>
